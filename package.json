@@ -1,0 +1,36 @@
+{
+  "name": "mac-nmm",
+  "version": "1.0.0",
+  "description": "node modules manager",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maqic/node_modules_mng.git"
+  },
+  "bin": {
+    "nmm": "bin/nmm.js"
+  },
+  "bugs": {
+    "url": "https://github.com/maqic/node_modules_mng/issues"
+  },
+  "homepage": "https://github.com/maqic/node_modules_mng#readme",
+  "keywords": [
+    "node_modules",
+    "free_up",
+    "storage",
+    "space",
+    "mac"
+  ],
+  "author": "maqic51@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
